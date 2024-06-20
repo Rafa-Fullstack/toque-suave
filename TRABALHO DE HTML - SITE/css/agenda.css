@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+h1:hover{
+    cursor: default;
+}
+h2:hover{
+    cursor: default;
+}
+h3:hover{
+    cursor: default;
+}
+body{
+    background-color: #9282ff;
+    margin: 0%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+header{
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    justify-content: space-around ;
+    background-color: #3b2f86f5;
+    padding: 0%;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    margin-top: 1px;
+    padding: 3px;
+    width: 220px;
+    height: 95px;
+}
+.menu-h ul{
+    list-style: none;
+    padding: 5px;
+    background-color: #36363600;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.menu-h ul li{
+    display: inline;
+}
+.menu-h ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    display: inline-block;
+}
+.menu-h ul li a:hover{
+    color: #d5cde1;
+    transform: scale(1.08);
+    transition: 0.15s linear;
+}
+table{
+    background-color: #3b2f86;
+    color: white;
+    width: 600px;
+    height: 300px;
+    font-size: 32pt;
+    text-align: center;
+    border: 3px solid #251972;
+    border-collapse: collapse;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.tabela{
+    margin-top: 30px;
+}
+td{
+    cursor: pointer;
+}
+td:hover{
+    background-color: #251972;
+    transform: scale(1.05);
+    transition: 0.15s linear;
+}
+.tabela h2{
+    font-size: 32pt;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.478) 1px 1px 2px;
+    text-align: center;
+}
+tr, td{
+    border: 3px solid #4e4879;
+}
+.texto-agende{
+    text-align: end;
+    font-size: 26pt;
+    margin-top: 7%;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.478) 1px 1px 2px;
+    margin-top: 85px;
+}
+.texto-agende p{
+    font-size: 31pt;
+}
+.d1{
+    display: flex;
+    justify-content: space-around;
+}
+b{
+    color: #3b2f86f5;
+    font-weight: 900;
+}
+@media only screen and (max-width: 768px){
+    header{
+        height: 50px;
+    }
+    .logo{
+        margin-top: 8px;
+        width: 60px;
+        height: 25px;
+    }
+    .menu-h ul{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .tabela h2{
+        font-size: 20pt;
+    }
+    table{
+        height: 150px;
+        width: 300px;
+        margin: auto;
+        font-size: 20pt;
+    }
+    .texto-agende{
+        display: none;
+    }
+}
